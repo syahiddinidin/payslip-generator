@@ -2,8 +2,8 @@
 Simple Payslip Generator
 
 Login
--username: admin 
--password: admin123
+- username: admin 
+- password: admin123
 
 About:
 - This payslip generator is also a payroll management system that can calculate the net pay of an employee
