@@ -1,0 +1,49 @@
+/*Payslip table*/
+table{
+	border-collapse:collapse;
+	width:100%;
+	margin:auto;
+}
+th,td{
+	border: 1px solid black;
+	font-size: 15.5px;
+}
+
+td.left, td.right{
+	width:50%;
+	border:none;
+}
+
+
+input[type=button]{
+	width:80px;
+	height:30px;
+	color: black;
+	margin:auto;
+	margin-bottom:3px;
+	border:ridged;
+	border-radius: 5px;
+	cursor:pointer;
+	background-color:#1ac6ff;
+}
+input[type=button].back{
+	background-color:#cc3300;
+}
+img{
+	width:120px;
+	height:50px;
+	float:right;
+}
+@media print{
+	#print{
+		display:none;
+	}
+	@page{
+		margin-top:15px;
+		margin-bottom:5px;
+	}
+	body{
+		padding-top:5px;
+		padding-bottom:5px;
+	}
+}
